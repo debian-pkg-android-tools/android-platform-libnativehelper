@@ -1,5 +1,5 @@
 android-platform-libnativehelper (6.0.1+r16-1) UNRELEASED; urgency=medium
 
-  * Initial release
+  * Initial release (Closes: #813899)
 
  -- Kai-Chung Yan <seamlikok@gmail.com>  Sat, 06 Feb 2016 19:54:03 +0800
