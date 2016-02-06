@@ -1,0 +1,26 @@
+Source: android-platform-libnativehelper
+Section: libs
+Priority: optional
+Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
+Build-Depends: android-liblog-dev (>= 1:6),
+               android-platform-build-headers,
+               debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://android.googlesource.com/platform/libnativehelper
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-platform-libnativehelper.git
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-platform-libnativehelper.git
+
+Package: android-libnativehelper
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Support functions for Android's class libraries
+ This library is only used by Android SDK currently.
+
+Package: android-libnativehelper-dev
+Architecture: amd64 i386
+Depends: android-libnativehelper (= ${binary:Version}), ${misc:Depends}
+Description: Support functions for Android's class libraries - Development files
+ This library is only used by Android SDK currently.
+ .
+ This package contains the development files.
