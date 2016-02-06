@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
 Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
 Build-Depends: android-liblog-dev (>= 1:6),
+               android-libcutils-dev (>= 1:6),
                android-platform-build-headers,
                debhelper (>= 9)
 Standards-Version: 3.9.7
