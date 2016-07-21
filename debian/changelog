@@ -1,3 +1,15 @@
+android-platform-libnativehelper (6.0.1+r55-1) UNRELEASED; urgency=medium
+
+  [ Hans-Christoph Steiner ]
+  * set Android Build-Depends: to have the same version as this package
+
+  [ Chirayu Desai ]
+  * New upstream release.
+  * debian: Add watch file for usage with uscan
+  * debian/watch: recompress using xz
+
+ -- Chirayu Desai <chirayudesai1@gmail.com>  Fri, 22 Jul 2016 00:34:31 +0530
+
 android-platform-libnativehelper (6.0.1+r16-1) unstable; urgency=medium
 
   * Initial release (Closes: #813899)
