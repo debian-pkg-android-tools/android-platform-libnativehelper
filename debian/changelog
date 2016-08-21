@@ -7,8 +7,9 @@ android-platform-libnativehelper (6.0.1+r55-1) UNRELEASED; urgency=medium
   * New upstream release.
   * debian: Add watch file for usage with uscan
   * debian/watch: recompress using xz
+  * Update android-platform-system-core Android Build-Depends to 6.0.1+r55
 
- -- Chirayu Desai <chirayudesai1@gmail.com>  Fri, 22 Jul 2016 00:34:31 +0530
+ -- Chirayu Desai <chirayudesai1@gmail.com>  Sun, 21 Aug 2016 18:39:41 +0530
 
 android-platform-libnativehelper (6.0.1+r16-1) unstable; urgency=medium
 
