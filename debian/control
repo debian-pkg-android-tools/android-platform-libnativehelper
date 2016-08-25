@@ -7,7 +7,8 @@ Uploaders: Kai-Chung Yan <seamlikok@gmail.com>,
 Build-Depends: android-liblog-dev (>= 1:6.0.1+r55~),
                android-libcutils-dev (>= 1:6.0.1+r55~),
                android-platform-build-headers (>= 1:6.0.1+r16-4),
-               debhelper (>= 9)
+               debhelper (>= 9),
+               dh-exec
 Standards-Version: 3.9.7
 Homepage: https://android.googlesource.com/platform/libnativehelper
 Vcs-Git: https://anonscm.debian.org/git/android-tools/android-platform-libnativehelper.git
