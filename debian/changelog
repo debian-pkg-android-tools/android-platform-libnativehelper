@@ -5,11 +5,17 @@ android-platform-libnativehelper (6.0.1+r55-1) UNRELEASED; urgency=medium
 
   [ Chirayu Desai ]
   * New upstream release.
+  * Add myself to Uploaders
   * debian: Add watch file for usage with uscan
-  * debian/watch: recompress using xz
   * Update android-platform-system-core Android Build-Depends to 6.0.1+r55
+  
+  [ Kai-Chung Yan ]
+  * d/Makefile: Switch to use C++ compiler
+  * Install libnativehelper to multiarch directory
+    - d/control: Build-Depends on dh-exec
+  * d/rules: Define NDEBUG for C++ binaries
 
- -- Chirayu Desai <chirayudesai1@gmail.com>  Sun, 21 Aug 2016 18:39:41 +0530
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Thu, 25 Aug 2016 15:41:49 +0800
 
 android-platform-libnativehelper (6.0.1+r16-1) unstable; urgency=medium
 
