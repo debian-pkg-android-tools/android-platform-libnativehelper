@@ -1,4 +1,4 @@
-android-platform-libnativehelper (6.0.1+r55-1) UNRELEASED; urgency=medium
+android-platform-libnativehelper (6.0.1+r55-1) unstable; urgency=medium
 
   [ Hans-Christoph Steiner ]
   * set Android Build-Depends: to have the same version as this package
