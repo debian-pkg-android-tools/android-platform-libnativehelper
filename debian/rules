@@ -16,7 +16,5 @@ override_dh_auto_build:
 override_dh_auto_clean:
 	make clean -f debian/Makefile
 
-get-orig-source: $(UPSTREAM_TAG).tar.gz
-
-$(UPSTREAM_TAG).tar.gz:
-	wget https://android.googlesource.com/platform/libnativehelper/+archive/$(UPSTREAM_TAG).tar.gz
+get-orig-source:
+	uscan --download-current-version --force-download --rename
