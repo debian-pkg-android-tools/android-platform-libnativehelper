@@ -2,3 +2,4 @@
 
 include/nativehelper   usr/include/android
 libnativehelper.so     usr/lib/${DEB_HOST_MULTIARCH}/android
+README                 usr/share/doc/android-libnativehelper
