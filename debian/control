@@ -15,13 +15,13 @@ Vcs-Git: https://anonscm.debian.org/git/android-tools/android-platform-libnative
 Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-platform-libnativehelper.git
 
 Package: android-libnativehelper
-Architecture: amd64 i386
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Support functions for Android's class libraries
  This library is only used by Android SDK currently.
 
 Package: android-libnativehelper-dev
-Architecture: amd64 i386
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: android-libnativehelper (= ${binary:Version}), ${misc:Depends}
 Description: Support functions for Android's class libraries - Development files
  This library is only used by Android SDK currently.
