@@ -1,4 +1,4 @@
-android-platform-libnativehelper (7.0.0+r1-1) UNRELEASED; urgency=medium
+android-platform-libnativehelper (7.0.0+r1-1) unstable; urgency=medium
 
   * New upstream release
   * Update Standards-Version to 3.9.8:
@@ -10,7 +10,7 @@ android-platform-libnativehelper (7.0.0+r1-1) UNRELEASED; urgency=medium
     * Unify the maintainer name as "Android Tools Maintainers"
     * Add android-platform-libcore-headers to Build-Depends
 
- -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 06 Dec 2016 13:26:41 +0800
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 06 Dec 2016 22:11:17 +0800
 
 android-platform-libnativehelper (6.0.1+r55-1) unstable; urgency=medium
 
