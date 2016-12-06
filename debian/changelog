@@ -1,8 +1,16 @@
 android-platform-libnativehelper (7.0.0+r1-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Update Standards-Version to 3.9.8:
+    * Move documentations from android-libnativehelper to
+      android-libnativehelper-dev
+  * Update to debhelper 10
+  * d/control:
+    * Enable builds for ARM & MIPS
+    * Unify the maintainer name as "Android Tools Maintainers"
+    * Add android-platform-libcore-headers to Build-Depends
 
- -- Kai-Chung Yan <seamlikok@gmail.com>  Fri, 23 Sep 2016 23:04:55 +0800
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 06 Dec 2016 13:26:41 +0800
 
 android-platform-libnativehelper (6.0.1+r55-1) unstable; urgency=medium
 
