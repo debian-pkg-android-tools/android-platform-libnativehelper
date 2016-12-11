@@ -1,3 +1,10 @@
+android-platform-libnativehelper (7.0.0+r1-2) unstable; urgency=medium
+
+  * android-libnativehelper-dev Breaks & Replaces android-libnativehelper
+    because README is moved to android-libnativehelper-dev (Closes: #847710)
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Sun, 11 Dec 2016 20:16:17 +0800
+
 android-platform-libnativehelper (7.0.0+r1-1) unstable; urgency=medium
 
   * New upstream release
