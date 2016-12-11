@@ -23,6 +23,8 @@ Description: Support functions for Android's class libraries
 Package: android-libnativehelper-dev
 Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: android-libnativehelper (= ${binary:Version}), ${misc:Depends}
+Breaks: android-libnativehelper (<< 7.0.0+r1-2~)
+Replaces: android-libnativehelper (<< 7.0.0+r1-2~)
 Description: Support functions for Android's class libraries - Development files
  This library is only used by Android SDK currently.
  .
